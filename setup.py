@@ -21,7 +21,7 @@
 
 from distutils.core import setup, Extension
 
-mod = Extension( 'pydmtx',
+mod = Extension( '_pydmtx',
                  include_dirs = ['/usr/local/include'],
                  library_dirs = ['/usr/local/lib'],
                  libraries = ['dmtx'],
